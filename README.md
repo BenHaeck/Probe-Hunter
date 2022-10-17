@@ -1,6 +1,7 @@
 # Probe-Hunter
-A game written in lua using love 2d and visual studio code
-All of the sounds were made using jfxr and the art assets were drawn in GIMP
+A game written in lua using Love 2D and Visual Studio Code
+All of the sounds were made using jfxr and the art assets were drawn in GIMP. Also to play this game, you will need to download Love 2D. Upon completing the download,
+just drag and drop the game files on the Love.exe executable.
 
 Story
 --
@@ -30,7 +31,7 @@ and the **destructable walls** are self explanitory.
 Engine
 --
 If you want to copy code from this then go ahead.
-The game works on a **messaging system**. Basicly objects communicate using messages that consist of a string, and 3 numbers. The object that was messaged
+The game works on a **messaging system**. Basicly objects communicate using messages that consist of a string, and 2 numbers. The object that was messaged
 resives the data and if it recognizes the string it returns true. If not it returns false.
 
 The "Helper functions" file contains a ton of general useful functions like math functions
